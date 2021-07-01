@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="annotation-examples/src"/>
+	<classpathentry kind="src" path="collection-examples/src"/>
+	<classpathentry kind="src" path="exception-handling/src"/>
+	<classpathentry kind="src" path="io-examples/src"/>
+	<classpathentry kind="src" path="java-eigh-examples/src"/>
+	<classpathentry kind="src" path="java-eight-streams/src"/>
+	<classpathentry kind="src" path="junit-testing/src"/>
+	<classpathentry kind="src" path="multithreading/src"/>
+	<classpathentry kind="src" path="polymorphism/src"/>
+	<classpathentry kind="output" path="annotation-examples/bin"/>
+</classpath>
