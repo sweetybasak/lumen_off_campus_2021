@@ -16,9 +16,6 @@ public class MyAnnotationProcessor {
 		
 		try {
 			Method  methodRef = classRef.getMethod("showDetails");
-			
-			                   
-			
 			Example anno = methodRef.getAnnotation(Example.class);
 			             
 			

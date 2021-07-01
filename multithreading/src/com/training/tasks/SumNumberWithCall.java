@@ -22,6 +22,8 @@ public class SumNumberWithCall  implements Callable<Integer>{
 			sum=sum+i;
 		}
 		
+		Thread.sleep(600);
+		
 	    return sum;
 	}
 

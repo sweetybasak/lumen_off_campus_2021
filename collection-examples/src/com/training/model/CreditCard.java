@@ -65,8 +65,8 @@ public class CreditCard implements Serializable,Comparable<CreditCard> {
 	@Override
 	public int compareTo(CreditCard obj) {
 
-		if(this.cardNumber<obj.cardNumber) return -1;
-		if(this.cardNumber>obj.cardNumber) return 1;
+		if(this.cardNumber<obj.cardNumber) return 1;
+		if(this.cardNumber>obj.cardNumber) return -1;
 		return 0;
 	}
 	

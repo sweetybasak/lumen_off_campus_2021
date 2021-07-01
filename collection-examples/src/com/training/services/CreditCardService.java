@@ -22,7 +22,7 @@ public class CreditCardService {
 		return this.cardList.add(card);
 	}
 	
-	// TODO  return appropirate values 
+	// TODO  return appropriate values 
 	public void  addCard(CreditCard ...cards) {
 		
 		for(CreditCard eachCard:cards) {

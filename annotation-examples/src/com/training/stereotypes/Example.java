@@ -1,6 +1,7 @@
 package com.training.stereotypes;
 
 import static java.lang.annotation.ElementType.*;
+
 import static java.lang.annotation.RetentionPolicy.CLASS;
 
 import java.lang.annotation.Retention;

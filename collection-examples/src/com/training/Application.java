@@ -9,6 +9,7 @@ import com.training.model.CreditCard;
 import com.training.model.Customer;
 import com.training.services.CreditCardService;
 import com.training.utils.CardHolderNameComparator;
+import com.training.utils.CreditLimitComparator;
 
 public class Application {
 
@@ -84,18 +85,21 @@ public class Application {
 		
 		System.out.println(arrayToList);
 				
-		System.out.println("Sort by Card Number");
-		 Collections.sort(list);
+//		System.out.println("Sort by Card Number");
+//		 Collections.sort(list);
+//		 
+//			print(list);
+//		System.out.println("Sort By Card Holder Name");
+//		
+//		Collections.sort(list,new CardHolderNameComparator());
+//		
+//		print(list);
+//		
+		System.out.println("Sort By Credit Limit");
+		Collections.sort(list, new CreditLimitComparator());
+		
 		 
-			print(list);
-		System.out.println("Sort By Card Holder Name");
-		
-		Collections.sort(list,new CardHolderNameComparator());
-		
 		print(list);
-		
-		 
-		
 	}
 
 }

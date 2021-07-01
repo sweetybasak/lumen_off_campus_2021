@@ -9,10 +9,10 @@ public class UsingExecutors {
 	public static void main(String[] args) {
 
 		
-	//	ExecutorService service = Executors.newSingleThreadExecutor();
+		ExecutorService service = Executors.newSingleThreadExecutor();
 		
 		
-		ExecutorService service = Executors.newFixedThreadPool(3);
+		//ExecutorService service = Executors.newFixedThreadPool(3);
 		
 		System.out.println(service.getClass().getName());
 		
